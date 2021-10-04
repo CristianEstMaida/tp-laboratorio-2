@@ -26,7 +26,7 @@ namespace Entidades
             }
         } 
 
-        public override /*sealed*//*new*/ string Mostrar()
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
