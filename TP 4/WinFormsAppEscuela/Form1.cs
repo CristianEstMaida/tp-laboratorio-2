@@ -68,7 +68,7 @@ namespace WinFormsAppEscuela
                 this.FinalizarTasks();
             }
 
-            listBox1.Items.Add(textBox1.Text + "\t" + textBox2.Text + "\t"+ textBox3.Text + "\t" + comboBox2.Text/*txtBinario.Text + operador + txtDecimal.Text + "=" + label1.Text*/);
+            listBox1.Items.Add(textBox1.Text + "\t" + textBox2.Text + "\t"+ textBox3.Text + "\t" + comboBox2.Text);
 
             lista.Add(Convert.ToSingle(textBox1.Text));
             
