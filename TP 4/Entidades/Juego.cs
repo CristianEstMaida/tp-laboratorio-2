@@ -46,15 +46,7 @@ namespace Entidades
 
         public short Avanzar()
         {
-            /*if (ubicacion == 0)
-            {
-                velocidad = 8;
-            }*/
-            /*else
-            {
-                FrmView f = new FrmView();
-                velocidad = f.numericUpDown1.Value;
-            }*/
+            
             this.ubicacion += velocidad;
             return this.ubicacion;
         }
@@ -64,7 +56,6 @@ namespace Entidades
         /// </summary>
         public void IniciarCarrusel(CancellationToken token)
         {
-            //Juego.velocidad = 8;
             do
             {
                 if (this.InformarAvance is not null)
