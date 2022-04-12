@@ -75,7 +75,8 @@ namespace WinFormsApp1
             Operando op = new Operando();
             int num = (int)Math.Abs(numero);
             string resto = "";
-
+            char[] r;
+            bool prueba;
             for (; num >= 2;)
             {
                 resto += num % 2;
@@ -83,14 +84,14 @@ namespace WinFormsApp1
 
             }
             resto += num;
-            char[] r = resto.ToCharArray();
+            r = resto.ToCharArray();
             Array.Reverse(r);
             resto = "";
             for (int i=0; i < r.Length ; i++)
             {
                 resto += r[i];
             }
-            bool prueba = int.TryParse(resto, out int restoPrueba);
+            prueba = int.TryParse(resto, out int restoPrueba);
 
             if (prueba && restoPrueba < int.MaxValue)
             {
