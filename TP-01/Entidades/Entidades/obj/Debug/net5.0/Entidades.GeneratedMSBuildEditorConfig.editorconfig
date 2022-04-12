@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Entidades
+build_property.ProjectDir = C:\Users\crist\Documentos\Familia\Cristian\Estudios\Universidad\Tecnicatura universitaria\Segundo cuatrimestre\Lab ii\tp-laboratorio-2-main\TP-01\Entidades\Entidades\
